@@ -1,0 +1,434 @@
+<ad-title>Jurnal dan Kesan</ad-title>
+<div class="header">Jurnal dan Kesan</div>
+
+<article id="Grid_Messages">
+	<div id="Grid_SendMessage">
+		<div class="progressbar"></div>
+		<img src="/assets/maskot_4.webp"/>
+		<div style="font-size: 1.25rem">Mau ngomong apa buat gweh?</div>
+		<div id="Input_Message">
+			<input type="text" placeholder="e.g: Hai ganteng"></input>			
+			<button class="accent" disabled></button>		
+		</div>
+		<input type="checkbox" ad-text="Tampilkan untuk semua orang"></input>
+	</div>
+	<div class="margin" style="height: 2em"></div>
+	<div class="subheader">Apa kata mereka?</div>
+	<div class="lists message">
+		<div class="scroll"></div>
+	</div>
+	<div class="margin" style="height: 8em"></div>
+</article>
+<!-------------------------------------------->
+
+<article category="Examen" type="Events">
+	<div class="subheader">Momen-momen menarik</div>
+	<div class="lists journal"></div>
+	<div class="margin" style="height: 8em"></div>
+</article>
+<!-------------------------------------------->
+
+
+<style>
+	#Grid_Messages
+	{
+		animation: 1s var(--key-animation-game) messageIn;
+	}
+	@keyframes messageIn
+	{
+		0%
+		{
+			opacity: 0;
+			transform: translateY(100px);
+		}
+		20%
+		{
+			opacity: 0;
+			transform: translateY(100px);
+		}
+	}
+	#Grid_Messages .subheader
+	{
+		animation: 1.5s var(--key-animation-game) theySaidIn;
+	}
+	@keyframes theySaidIn
+	{
+		0%
+		{
+			opacity: 0;
+			transform: translateY(100px);
+		}
+		21%
+		{
+			opacity: 0;
+			transform: translateY(100px);
+		}
+	}
+	#Grid_SendMessage
+	{
+		position: relative;
+		background: var(--background-context);
+		border: 1px solid var(--border-context);
+		border-radius: 10px;
+		display: grid;
+		gap: 1em;
+		padding: 1em 1.2em;    
+		margin: -5em 0 1.5em;    
+		grid-auto-rows: max-content 40px auto;
+		height: 150px;
+		box-sizing: border-box;
+	}
+		#Grid_SendMessage .progressbar
+		{
+			z-index: 0;
+			left: 7px;
+			width: calc(100% - 14px);
+		}
+		#Grid_SendMessage #Input_Message 
+		{
+			display: grid;
+			grid-auto-flow: column;
+			grid-auto-columns: auto 125px;
+			gap: 10px;    
+			width: calc(100% - 175px);
+		}
+			#Grid_SendMessage #Input_Message input
+			{
+				width: 100%;    
+				height: 100%;
+			}
+			#Grid_SendMessage #Input_Message button
+			{
+				min-width: unset;
+			}
+			#Grid_SendMessage #Input_Message button:after
+			{
+				content: "Kirim";
+			}
+		#Grid_SendMessage img
+		{
+			position: absolute;
+			right: -20px;
+			bottom: 0;
+			height: 350px;
+			width: 230px;
+			object-fit: cover;
+			object-position: top;
+		}
+	@media screen and (max-width: 700px)
+	{
+		#Grid_SendMessage
+		{
+			margin-top: 400px;
+		}
+			#Grid_SendMessage #Input_Message 
+			{
+				width: 100%;
+				grid-auto-columns: auto 40px;
+			}
+				#Grid_SendMessage #Input_Message button:after
+				{
+					content: "\e725";
+					font-family: var(--font-icon);
+				}
+			#Grid_SendMessage img
+			{    
+				right: 50%;    
+				bottom: 150px;    
+				width: 285px;
+				height: 385px;
+				transform: translateX(50%);
+				z-index: -1;
+			}
+	}
+	.lists.message .scroll
+	{
+		--rows: 3;
+		grid-auto-columns: 325px;
+		grid-template-rows: repeat(var(--rows), auto);
+		gap: 10px;
+	}
+		.lists.message .scroll .list
+		{
+			width: auto;
+		}
+			.lists.message .scroll .list .date
+			{
+				display: grid;
+				grid-auto-flow: column;
+				grid-auto-columns: auto max-content;
+			}	
+			.lists.message .scroll .list .original
+			{
+				font-size: 18px;
+				margin: 0.5em 0;
+			}	
+			.lists.message .scroll .list .reply 
+			{
+				font-size: 0.75em;
+				display: grid;
+				gap: 7px;
+				grid-auto-flow: column;
+				grid-auto-columns: max-content auto;
+				margin-top: 0.5em;
+				padding-top: 0.5em;
+				border-top: 1px solid var(--border-context);
+				color: var(--text-placeholder);
+			}
+				.lists.message .scroll .list .reply:before 
+				{
+					content: "Replied:";
+					display: inline-block;
+					font-family: var(--font-semibold);
+				}
+
+	.lists.journal .arrows
+	{
+		display: none;
+	}
+	.lists.journal .scroll
+	{
+		overflow: unset;
+		grid-auto-flow: row;
+		grid-auto-columns: auto;
+		-webkit-mask-image: unset;
+	}
+		.lists.journal .scroll .list
+		{
+			width: auto;
+			background: unset;
+			border: unset;
+			overflow: unset;
+			border-radius: unset;
+		}
+			.lists.journal .scroll .list .thumbnail
+			{
+				position: absolute;
+				right: 0;
+				top: 30px;
+				padding: 7px 7px 40px;
+				background: var(--text);
+				height: auto;
+				width: 250px;
+				transform: rotate(7deg);
+				box-shadow: 0 0 15px 5px black;
+				transition: 0.6s var(--key-animation) transform;
+				pointer-events: all;
+				-webkit-user-drag: none;
+				z-index: 1;
+			}
+			.lists.journal .scroll .list .thumbnail:hover
+			{
+				transform: scale(1.3) translate(-50px, 5px);
+				z-index: 5;
+			}
+			.lists.journal .scroll .list .text
+			{
+				position: relative;
+				padding: 0;
+				margin: 0 300px 0 150px ;
+			}
+			.lists.journal .scroll .list:not(:last-child) .text
+			{
+				margin-left: 61px;
+				padding-left: 85px;
+				border-left: 4px dashed var(--text-placeholder);
+			}
+				.lists.journal .scroll .list .text .date
+				{
+					height: unset;
+					position: absolute;
+					padding: 0 0 0.85em;
+					font-size: 35px;
+					text-align: center;
+					transform: translate(calc(-100% - 30px));
+					width: 120px;
+					font-family: var(--font-bold);
+					background: var(--darkest);
+					opacity: 1;
+					color: var(--accent-light-3);
+				}
+					.lists.journal .scroll .list .text .date .year
+					{
+						font-size: 25px;
+						line-height: 1;
+					}
+				.lists.journal .scroll .list .text .name
+				{
+					font-size: 50px;    
+					white-space-collapse: preserve;
+					height: unset;    
+					line-height: 1.15;
+					margin: 0 0 0.3em;
+				}
+				.lists.journal .scroll .list .text .desc
+				{
+					font-size: 1.25em;    
+					white-space-collapse: preserve;
+					height: unset;
+					padding: 0 0 50px;
+				}
+	@media screen and (max-width: 850px)
+	{
+		.lists.journal .scroll .list:first-child 
+		{
+			margin-top: 2em;
+		}
+			.lists.journal .scroll .list .thumbnail 
+			{
+				position: relative;
+				left: 0;
+				top: -2em;
+				width: calc(100% - 20px);    
+				max-width: 350px;
+				padding: 7px 7px 40px;
+				transform: rotate(-2deg);
+				transition: 0.6s var(--key-animation) transform;
+				box-shadow: unset;
+			}
+	
+			.lists.journal .scroll .list .thumbnail:hover 
+			{
+				transform: scale(1.15);
+			}
+			.lists.journal .scroll .list .text 
+			{
+				position: relative;
+				padding: 0;
+				margin: 0 0 0 60px;
+			}
+			.lists.journal .scroll .list:not(:last-child) .text 
+			{
+				margin-left: 10px;
+				padding-left: 50px;
+			}
+				.lists.journal .scroll .list .text .date
+				{    
+					transform: translate(calc(-100% - 27px));
+					font-size: 18px;
+					width: 50px;
+					padding: 0.25em 0 1.2em;
+				}
+					.lists.journal .scroll .list .text .date .day
+					{
+						font-size: 30px;    
+						line-height: 0.95;
+					}
+					.lists.journal .scroll .list .text .date .year
+					{
+						font-size: 15px;
+					}
+				.lists.journal .scroll .list .text .name 
+				{
+					font-size: 35px;
+				}
+				.lists.journal .scroll .list .text .desc 
+				{
+					font-size: 1em;
+					margin-top: 0.25em;
+				}
+	}
+</style>
+
+<script src="/platform.js"></script>
+<script>
+	var List_Source = "/sources/journal[p].json";
+	var List_Thumbnail = "/sources/Journal";
+	
+	$(window).ready(Message_Get);
+
+	$("#Grid_SendMessage #Input_Message input")
+		.on("input", function()
+		{
+			if (this.value.trim() == "")	
+				$("#Grid_SendMessage #Input_Message button")[0].disabled = true;
+			else
+				$("#Grid_SendMessage #Input_Message button")[0].disabled = false;
+		})
+		.on("keydown", function(e)
+		{
+			if (this.value.trim() == "")	
+				return;
+
+			if (e.keyCode == 13)
+			{
+				Message_Send();
+			}
+		})
+	$("#Grid_SendMessage #Input_Message button").click(Message_Send);
+
+	function Message_Send()
+	{
+		$("#Grid_SendMessage .progressbar ").addClass("show");
+		$("#Grid_SendMessage #Input_Message *").attr("disabled", "disabled");
+		let message = $("#Grid_SendMessage #Input_Message input").val();
+
+		$.ajax({
+			type: "POST",
+			data: 
+			{
+				time: Date.now(),
+				message: message,
+				isPublic: $("#Grid_SendMessage input[type=checkbox]")[0].checked,
+				client: platform.description
+			},
+			url: "/messages/send",
+			success: function(data)
+			{	
+				Message_Get();
+				$("#Grid_SendMessage #Input_Message input").removeAttr("disabled");
+				$("#Grid_SendMessage #Input_Message input").val("");
+				$("#Grid_SendMessage input[type=checkbox]")[0].checked = true;
+			},
+			error: function(data)
+			{
+				alert("Error");
+				console.log(data);
+				$("#Grid_SendMessage .progressbar ").removeClass("show");
+				$("#Grid_SendMessage #Input_Message *").removeAttr("disabled");
+			}
+		});
+	}
+
+	function Message_Get()
+	{
+		$("#Grid_SendMessage .progressbar ").addClass("show");
+		$.ajax({
+			type: "POST",
+			url: "/messages/get",
+			success: function(data)
+			{
+				$("#Grid_SendMessage .progressbar ").removeClass("show");
+				$("#Grid_SendMessage input[type=checkbox]")[0].checked = true;
+				Message_Append(data);
+			},
+			error: function(data)
+			{
+				alert("Error");
+				console.log(data);
+				$("#Grid_SendMessage .progressbar ").removeClass("show");
+			}
+		});
+	}
+
+	function Message_Append(messages)
+	{
+		$("#Grid_Messages .lists .scroll").html("");
+		for (let message of messages.reverse())
+		{
+			$("#Grid_Messages .lists .scroll").append(
+				"<div class='list'>" + 
+					"<div class='text'>" +
+						"<div class='date'>" +
+				"			<div class='day'>" + Format_Date(parseInt(message.time), "shortdate") + "</div>" +
+							"<div class='clock'>" + Format_Date(parseInt(message.time), "time") + "</div>" +
+						"</div>" +
+						"<div class='original'>" + message.message + "</div>" + 
+						(message.reply != null ? "<div class='reply'>" + message.reply + "</div>" : "") + 
+					"</div>" +
+				"</div>"
+			);
+		}
+		List_Finish();
+	}
+</script>

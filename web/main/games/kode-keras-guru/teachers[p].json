@@ -1,0 +1,22 @@
+[
+	{
+		"id": "tegal",
+		"name": "Bapak Tegal",
+		"desc": "Guru Matematika Wajib"
+	},
+	{
+		"id": "moana",
+    "name": "Ma'am Moana",
+    "desc": "Guru Bahasa Inggris"
+	},
+	{
+		"id": "tani",
+    "name": "Pak Tani",
+    "desc": "Guru Fisika"
+	},
+	{
+		"id": "supri",
+    "name": "Bu Supri",
+    "desc": "Guru Pendidikan Religiositas"
+	}
+]

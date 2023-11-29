@@ -1,0 +1,239 @@
+<ad-title>Messages - Admin</ad-title>
+<div class="header">Messages</div>
+
+<div class="section">
+	<div class="subheader" style="opacity: 1">Who sent you messages?</div>
+	<div class="expander arrowed" id="Expander_Messages" isExpanded="true">
+		<div class="headercontent">
+			<span class="icon">&#xe8f2;</span>
+			<div class="headerinternalcontent">
+				<div>
+					<div>Thoughts</div>
+					<div class="description">Some of the messages sent to you.</div>
+				</div>
+			</div>
+		</div>
+		<div class="content"></div>
+	</div>
+	</div>
+</div>
+
+<script>
+	var Editor_Ignore = true;
+
+	$(window).ready(Message_Get);
+
+	function Message_Reply(time)
+	{
+		$("#MainLoading").addClass("show");
+		$(".message .text .reply input, .message .text .reply button").attr("disabled", "disabled");
+		$.ajax({
+			type: "POST",
+			data: {
+				time: time,
+				reply: $(".message[time='" + time + "'] .text .reply input").val()
+			},
+			url: "/messages/reply",
+			success: function(data)
+			{
+				$("#MainLoading").removeClass("show");
+				$(".message .text .reply input, .message .text .reply button").removeAttr("disabled");
+			},
+			error: function(data)
+			{
+				alert(data.responseText);
+				$(".message .text .reply input, .message .text .reply button").removeAttr("disabled");
+				$("#MainLoading").removeClass("show");
+			}
+		});
+	}
+	function Message_Get()
+	{
+		$("#MainLoading").addClass("show");
+		$.ajax({
+			type: "POST",
+			url: "/messages/get?admin=true",
+			success: function(data)
+			{
+				$("#MainLoading").removeClass("show");
+				Message_Append(data);
+			},
+			error: function(data)
+			{
+				alert(data.responseText);
+				$("#MainLoading").removeClass("show");
+			}
+		});
+	}
+
+	function Message_Append(messages)
+	{
+		$("#Expander_Messages .content").html("");
+		for (let message of messages.reverse())
+		{
+			$("#Expander_Messages .content").append(
+				"<div class='message " +  (message.isPublic == "true" ? "public": "") + "' time='" + message.time + "'>" + 
+					"<div class='timestamp'>" +
+						"<div class='time'>" + Format_Date(parseInt(message.time), "time") + "</div>" +
+						"<div class='date'>" + Format_Date(parseInt(message.time), "shortdate") + "</div>" +
+					"</div>" +
+					"<div class='text'>" +
+						"<div class='original'>" + message.message + "</div>" + 
+						"<div class='reply'>" +
+							"<input type='text' placeholder='Type to reply' value='" + (message.reply != null ? message.reply : "") + "'></input>" +
+							"<button class='accent'>&#xe725;</button>" +
+						"</div>" +
+					"</div>" +
+					"<div class='client'>" + message.client + "</div>" + 
+				"</div>"
+			);
+		}
+
+		$(".message .text .reply input").each(function(e)
+		{
+			$(this).on("keydown", function(e)
+			{
+				if (e.keyCode == 13)
+					Message_Reply($(this).parent(".reply").parent(".text").parent(".message").attr("time"));
+			})
+		})
+		$(".message .text .reply button").each(function(e)
+		{
+			$(this).on("mousedown", function(e)
+			{
+				Message_Reply($(this).parent(".reply").parent(".text").parent(".message").attr("time"));
+			})
+			$(this).on("touchstart", function(e)
+			{
+				e.preventDefault();
+				Message_Reply($(this).parent(".reply").parent(".text").parent(".message").attr("time"));
+			})
+		})
+	}
+</script>
+
+<style>	
+	#Expander_SendMessage #Input_Message
+	{
+		display: flex;    
+		gap: 5px;
+		margin: 0 0 15px;
+	}
+		#Expander_SendMessage #Input_Message input
+		{
+			width: 275px;
+		}
+		#Expander_SendMessage #Input_Message button
+		{
+			font-family: var(--font-icon);
+			min-width: unset;
+			width: 45px;
+			font-size: 17px;
+			padding: 5px;
+		}
+
+	.message
+	{
+		display: inline-flex;
+		flex-direction: column;
+		margin: 5px;
+		padding: 10px 13px;
+		border-radius: 10px;
+		gap: 5px;
+		background: var(--background-list-hover);
+		width: 210px;
+		min-height: 70px;
+	}
+		.message .timestamp
+		{        
+			display: grid;
+			grid-auto-flow: column;
+			font-family: var(--font-semibold);
+			font-size: 12px;
+			padding-bottom: 5px;
+			margin-bottom: 2px;
+			border-bottom: 1px solid var(--border-context);
+			opacity: 0.7;
+		}
+			.message .timestamp .time
+			{    
+			}
+			.message .timestamp .date
+			{    
+				text-align: right;
+			}
+		.message .text
+		{    
+			font-size: 16px;
+		}
+			.message .text .reply
+			{    
+				font-size: 13px;
+				display: grid;
+				grid-auto-flow: column;
+				grid-auto-columns: 14px auto 30px;
+				gap: 3px;
+				margin-top: 2px;
+				align-items: center;
+			}
+				.message .text .reply:before
+				{    
+					content: "\ee35";
+					opacity: 0.8;
+					font-family: var(--font-icon);
+					display: inline-block;
+					transform: translateY(2px) rotateX(180deg);
+				}
+				.message .text .reply input
+				{
+					height: 30px;
+					padding: 2.5px 8px;
+					border-radius: 6px;
+				}
+				.message .text .reply input:not(:hover, :focus)
+				{
+					background: transparent;
+					border: 1px solid transparent;
+				}
+				.message .text .reply input:not(:focus) + button
+				{
+					display: none;
+				}
+				.message .text .reply button
+				{
+					font-family: var(--font-icon);
+					min-width: unset;
+					width: 30px;
+					height: 30px;
+				}
+		.message .client
+		{
+			display: grid;
+			grid-auto-flow: column;
+			grid-auto-columns: auto 20px;
+			padding-top: 5px;
+			margin-top: 2px;
+			border-top: 1px solid var(--border-context);
+			font-size: 10px;
+			color: var(--text-placeholder);
+			align-items: center;
+			user-select: text;
+		}
+			.message.public .client:after
+			{
+				content: "\e7b3";
+				font-family: var(--font-icon);    
+				text-align: right;    
+				font-size: 12px;
+			}
+
+	@media screen and (max-width: 425px)
+	{
+		.message
+		{
+			display: flex;    
+			width: calc(100% - 36px);
+			min-height: unset;
+		}
+	}
+</style>

@@ -1,0 +1,73 @@
+{
+	"short_name": "World",
+	"name": "Agape Dimas",
+	"description": "Aplikasi untuk mengelola isi dari World.",
+	"icons": [
+		{
+			"src": "/icon.ico",
+			"sizes": "256x256",
+			"type": "image/icon"
+		}
+	],
+
+	"start_url": "/admin/",
+	"background_color": "#000000",
+	"theme_color": "#000000", 
+	"display_override": ["window-controls-overlay", "standalone"],
+	"display": "standalone",
+	"scope": "/",
+	"shortcuts": [
+		{
+			"name": "Profile",
+			"short_name": "Profile",
+			"description": "Mengatur presensi untuk tamu",
+			"url": "/admin/profile",
+			"icons": [{ "src": "/assets/icon.png", "sizes": "512x512" }]
+		},
+		{
+			"name": "Data",
+			"short_name": "Data",
+			"description": "Input data berkaitan dengan acara",
+			"url": "/admin/favorites",
+			"icons": [{ "src": "/assets/icon.png", "sizes": "512x512" }]
+		},
+		{
+			"name": "Projects",
+			"short_name": "Projects",
+			"description": "Input data berkaitan dengan acara",
+			"url": "/admin/projects",
+			"icons": [{ "src": "/assets/icon.png", "sizes": "512x512" }]
+		},
+		{
+			"name": "Journal",
+			"short_name": "Journal",
+			"description": "Input data berkaitan dengan acara",
+			"url": "/admin/journal",
+			"icons": [{ "src": "/assets/icon.png", "sizes": "512x512" }]
+		},
+		{
+			"name": "Message",
+			"short_name": "Message",
+			"description": "Input data berkaitan dengan acara",
+			"url": "/admin/message",
+			"icons": [{ "src": "/assets/icon.png", "sizes": "512x512" }]
+		}
+	],
+	"screenshots": [
+		{
+			"src": "/assets/screenshots/1.png",
+			"type": "image/png",
+			"sizes": "1920x1080"
+		},
+		{
+			"src": "/assets/screenshots/2.png",
+			"type": "image/png",
+			"sizes": "1920x1080"
+		},
+		{
+			"src": "/assets/screenshots/3.png",
+			"type": "image/png",
+			"sizes": "1920x1080"
+		}
+	]
+}

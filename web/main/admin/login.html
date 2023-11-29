@@ -1,0 +1,103 @@
+<ad-title>Login - Admin</ad-title>
+<img src="/icon_ad-text.png"/>
+<div class="opening">
+	Let's get this shit simpler.
+</div>
+<div class="input-container">
+	<input type="text" name="username" placeholder="Username"></input>
+	<input type="password" name="password" placeholder="Password"></input>
+	<div class="info"></div>
+	<button name="login">Login</button>
+</div>
+
+<script>
+	var Editor_Ignore = true;
+
+	$(".sidebar").remove();
+
+	$("button[name=login]").click(function()
+	{
+		$(".info").hide();
+		$("button[name=login], .input-container input").attr("disabled", true);
+		$(".progressbar").show();
+		$.post("/admin/login",
+		{
+			username: $("input[name=username]").val(),
+			password: $("input[name=password]").val()
+		},
+		function(status)
+		{
+			validatePassword(status);
+		});
+	});
+
+	async function validatePassword(status)
+	{
+		if (status.startsWith("FAIL"))
+		{
+			$(".info").html("Incorrect username or password").show();
+			$("button[name=login], .input-container input").removeAttr("disabled");
+			$(".progressbar").hide();
+		}
+		else
+		{
+			window.location.reload();
+		}
+	}
+</script>
+
+<style>
+	html
+	{
+		background: var(--darkest);
+	}
+	.main
+	{
+		width: calc(100% - 30px);
+		height: calc(100% - 30px);
+		margin: auto;
+		max-width: 350px;
+		max-height: 575px;
+		background: var(--background-page);
+		border-radius: 10px;
+		border: 1px solid var(--overlay-active);
+		box-shadow: var(--blur-shadow);
+		padding: 0 !important;
+	}
+		.main	.maininternal
+		{
+			padding: 30px;
+			height: calc(100% - 60px);    
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+	.maininternal img
+	{
+		width: 150px;
+		margin: 0 0 15px 0;
+	}
+	.maininternal .opening
+	{
+		margin: 0 0 75px 0;
+		font-size: 28px;
+		font-family: var(--font-semibold);
+	}
+	.maininternal .input-container 
+	{
+		display: flex;
+		flex-direction: column;
+		gap: 7px;
+	}
+		.maininternal .input-container .info
+		{
+			text-align: center;
+			margin-top: 15px;
+			display: none;
+		}
+		.maininternal .input-container button
+		{
+			margin: 20px 0 0 0;
+			padding: 10px 8px;
+		}
+</style>

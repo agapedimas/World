@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/> 
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport"/> 
+		<link rel="stylesheet" type="text/css" href="https://ui.agapedimas.repl.co/style.css"/> 
+		<link rel="stylesheet" type="text/css" href="/style.css"/> 
+		<link rel="icon" href="/icon.ico"/> 
+		<title>Agape Dimas</title> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+		<script src="https://ui.agapedimas.repl.co/head.js" id="head_js"></script>
+	</head>
+	<body>
+		<div class="dialog opened">
+			<div class="title">
+				<img src="/icon_ad-text.png"/>
+			</div>
+			<div class="content">
+				<div class="opening">
+					The page you are looking for is currently unavailable.
+				</div>
+				<div class="note">Nice try, punk.</div>
+			</div>
+			<div class="buttons">
+				<button id="Button_Back" class="accent">Go back</button>
+				<button id="Button_Home">Homepage</button>
+			</div>
+		</div>
+		
+		<script>
+			$("#Button_Back").click(function()
+			{
+				window.history.back();	
+			})
+			$("#Button_Home").click(function()
+			{
+				window.location.href = "/";
+			})
+		</script>
+		
+		<style>
+			html
+			{
+				background: var(--darkest);
+			}
+			.dialog img
+			{
+				height: 22px;
+		    margin: 35px 0 0 0;
+			}
+			.dialog .opening
+			{
+		    margin: 0 0 13px 0;
+		    font-size: 28px;
+				font-family: var(--font-semibold);
+			}
+			.dialog .note
+			{
+				margin: 0 0 25px 0;
+				font-size: 19px;
+				color: var(--text-placeholder);
+				font-family: var(--font-semibold);
+			}
+			@keyframes dialogInitialize
+			{
+				0% { opacity : 1 }
+			}
+		</style>
+	</body>
+</html>

@@ -1,0 +1,358 @@
+{
+	"Personal": {
+		"Figure": [
+			{
+				"id": "wishnutama",
+				"name": "Wishnutama",
+				"desc": "Perfeksionis, apapun harus zero mistake. Salut sama semua effort dan kreativitasnya 👍🏻\n\n((Mungkin ini yang bikin gua ikutan osidi))"
+			},
+			{
+				"id": "rachel-platten",
+				"name": "Rachel Platten",
+				"desc": "Penulis yang menurut gua underrated, karena banyak lirik lagu yang sebenernya keren-keren. Semua lagunya bahkan sesuai selera gua semua, jadinya bikin gua enjoy buat dengerin semua albumnya."
+			}
+		],
+		"Music": [
+			{
+				"id": "lauv-mean-it",
+				"name": "Mean It",
+				"desc": "Lauv",
+				"background": "https://www.billboard.com/wp-content/uploads/2022/01/LAUV-cr-Vince-Aung-press-2022-billboard-1548.jpg",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/lauv-mean-it.mp3",
+				"external": "https://open.spotify.com/track/6mXdCcFnPKQznj4CmMRmHC",
+				"captions": "[00:00.000]When it feels right to you?\n[00:02.250]But I′m all, I′m all in\n[00:04.800]I'm falling faster\n[00:07.500]If you′re looking at me with a heart of doubt\n\n[00:12.600]Don't kiss me right now\n[00:15.000] Don′t tell me that you need me\n[00:17.400]Don't show up at my house\n[00:20.200]All caught up in your feelings\n[00:22.300]Don′t run me 'round and 'round\n[00:25.200]Don′t build me up just to let me down\n[00:29.000]Just to let me down, down, down (Hey)\n\n[00:32.800]Don′t mess with my head\n[00:35.200]Don't tell me you′re falling with your\n[00:37.500]Feet still on the ledge\n[00:40.000]I'm all out of breath\n[00:41.900]Baby, don′t run me 'round and ′round\n[00:45.000]Don't kiss me, no, don't kiss me right now\n[00:48.600]On your lips just leave it\n[00:51.000]If you don′t mean it\n"
+			},
+			{
+				"id": "niki-high-school-in-jakarta",
+				"name": "High School in Jakarta",
+				"desc": "NIKI",
+				"background": "https://cdn.filestackcontent.com/crop=d:[0,7,1280,640]/pjpg=q:90/compress/3IyhKlZgSl6YaeGvFtf0",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/niki-high-school-in-jakarta.mp3",
+				"external": "https://open.spotify.com/track/1zxfRSZcaonV1VXcY0PgY5",
+				"captions": "[00:00.000]Didn't you hear Amanda's moving back to Colorado\n[00:03.300]It's 2013 and the end of my life\n[00:07.500]I needed a good cry, I headed right to Kendra's\n[00:11.200]I hated you and I hoped to God that you knew\n[00:15.000]Now there's drama (drama), found a club for that\n[00:18.900]That you're better 'cause you're older\n[00:23.000]Are you better now that we're older?\n\n[00:28.500]High school in Jakarta, sorta modern Sparta\n[00:32.000]Had no chance against the teenage suburban armadas\n[00:36.500]We were a sonata, thanks to tight-lipped fathers\n[00:40.000]Yeah, living under that was hard, but I loved you harder\n[00:44.500]High school in Jakarta, I won't, but I wanna"
+			},
+			{
+				"id": "bee-gees-too-much-heaven",
+				"name": "Too Much Heaven",
+				"desc": "Bee Gees",
+				"background": "https://www.billboard.com/wp-content/uploads/media/bee-gees-1978-billboard-bw-1548.jpg?w=942&h=623&crop=1",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bee-gees-too-much-heaven.mp3",
+				"external": "https://open.spotify.com/track/6T5GTy1l6dRmagqpNPjdoc"
+			},
+			{
+				"id": "take-that-how-deep-is-your-love",
+				"name": "How Deep is Your Love",
+				"desc": "Take That",
+				"background": "https://images.bild.de/600fe978c6354c00018d4545/a1f0f7d625a4a15f4401ec5bafa169fe,d9f02c62?w=1280",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/take-that-how-deep-is-your-love.mp3",
+				"external": "https://open.spotify.com/track/0pO9wem4wi61QD2PWFpIJQ?si=9ee7b4f1da9b4823",
+				"captions": "[00:00.000]I wanna feel you in my arms again\n[00:04.500]And you come to me on a summer breeze\n[00:09.200]Keep me warm in your love then you softly leave\n[00:14.300]And it's me you need to show\n[00:18.100]How deep is your love\n[00:20.100]How deep is your love\n[00:21.100]How deep is your love\n[00:24.500]I really need to learn\n[00:28.300]'Cause we're living in a world of fools\n[00:33.100]Breaking us down\n[00:36.000]When they all should let us be\n[00:40.600]We belong to you and me\n[00:45.500]\n"
+			},
+			{
+				"id": "mj-love-never-felt-so-good",
+				"name": "Love Never Felt So Good",
+				"desc": "Michael Jackson ft. Justin Timberlake",
+				"background": "https://world.agapedimas.repl.co/sources/ArtistArt/michael-jackson.jpg",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/mj-love-never-felt-so-good.mp3",
+				"external": "https://open.spotify.com/track/48td6xvpokdYwvbl3JIiXP",
+				"captions": "[00:00.200]And the night's gonna be just fine\n[00:04.000]Gotta fly, gotta see, can't believe\n[00:07.100]I can't take it\n\n[00:08.400]'Cause baby, every time I love you\n[00:13.000]In and out my life, in out, baby\n[00:17.000]Tell me, if you really love me\n[00:21.000]It's in and out my life, in out, baby\n[00:25.000]So baby, yes, love never felt so good"
+			},
+			{
+				"id": "rachel-beating-me-up",
+				"name": "Beating Me Up",
+				"desc": "Rachel Platten",
+				"background": "https://s1.ticketm.net/dam/a/bf3/cae26dec-60eb-47b0-b03b-f299af9a4bf3_387951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"external": "https://open.spotify.com/track/1xGeLehBZrhCGpyUFUjita",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/rachel-beating-me-up.mp3",
+				"captions": ""
+			},
+			{
+				"id": "rachel-whole-heart",
+				"name": "Whole Heart",
+				"desc": "Rachel Platten",
+				"background": "https://s1.ticketm.net/dam/a/bf3/cae26dec-60eb-47b0-b03b-f299af9a4bf3_387951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/rachel-whole-heart.mp3",
+				"external": "https://open.spotify.com/track/4gbTxDPmg2KOUpfp727PGT",
+				"captions": "[00:00.000]All the messy parts, every part\n[00:01.200]Your whole, whole heart\n\n[Chorus]\n[00:03.000](Hey) \n[00:04.700]So come on, baby, open up\n[00:06.900]I swear you won't be sorry\n[00:09.600](Hey) \n[00:10.700]Yeah, you know I never ever judge\n[00:13.700]I swear you won't be sorry\n[00:16.200]Hoo na na na, hoo na na na\n[00:18.600]I want your whole, whole heart\n[00:22.200]Give me that \n[00:23.000]Hoo na na na, hoo na na na\n[00:25.300]I want your whole, whole heart\n[00:28.400]Lay it on me"
+			},
+			{
+				"id": "pink-just-give-me-a-reason",
+				"name": "Just Give Me a Reason",
+				"desc": "P!nk ft. Nate Ruess",
+				"background": "https://2.bp.blogspot.com/-aRgR1c-mCmA/URLFuHjsL1I/AAAAAAAABtA/q-dAA4pV2Pk/s1600/AR2.png",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/pink-just-give-me-a-reason.mp3",
+				"external": "https://open.spotify.com/track/1mKXFLRA179hdOWQBwUk9e",
+				"captions": "[00:00.000]You've been having real bad dreams\n[00:03.500]Oh, oh\n[00:04.800]You used to lie so close to me\n[00:08.500]Oh, oh\n[00:09.900]There's nothing more than empty sheets\n[00:13.400]Between our love, our love\n[00:18.900]Oh, our love, our love, love\n[00:25.000]Just give me a reason\n[00:26.900]Just a little bit’s enough\n[00:29.600]Just a second - we’re not broken, just bent\n[00:33.050]And we can learn to love again\n[00:35.250]I’ve never stopped\n[00:37.150]You’re still written in the scars on my heart\n[00:41.050]You’re not broken, just bent\n[00:43.150]And we can learn to love again"
+			},
+			{
+				"id": "5sos-lie-to-me",
+				"name": "Lie to Me",
+				"desc": "5 Seconds of Summer",
+				"background": "https://lh3.googleusercontent.com/-cSRkKVyaC4PXQobaoprf09s2nkd1LWhs79lUBzHw0MOatCH3RH2tiImrmdEe_GgZyoqrs54htAa_TA=w1280-h720-p-l720-rj",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/5sos-lie-to-me.mp3",
+				"external": "https://open.spotify.com/track/3567eNX2L3RkkMkwspncMH",
+				"captions": ""
+			},
+			{
+				"id": "toto-ill-be-over-you",
+				"name": "I'll Be Over You",
+				"desc": "Toto",
+				"background": "https://lh3.googleusercontent.com/QJflflstOojS4ibS3VW5ub7gp36q5jihSyW6oNIsfIbhE4wMIA_RHJ1Q8cOW3ZzRQ3NI2ZgwH8cTk84=w1280-h720-p-l90-rj",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/toto-ill-be-over-you.mp3",
+				"external": "https://open.spotify.com/track/1WeoeHh0TSzsApyJ6Q8OOK",
+				"captions": "[00:00.400]That's how our love must be\n[00:06.000]Don't ask why\n[00:11.900]It takes some time\n[00:16.200]God knows how long\n[00:19.200]I know that I can forget you\n[00:23.200]As soon as my heart stops breakin'\n[00:30.500]Anticipating\n[00:36.500]As soon as forever is through\n[00:41.100]I'll be over you"
+			},
+			{
+				"id": "boyz2men-on-bended-knee",
+				"name": "On Bended Knee",
+				"desc": "Boyz II Men",
+				"background": "https://wallpapercave.com/wp/wp6111354.jpg",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/boyz2men-on-bended-knee.mp3",
+				"external": "https://open.spotify.com/track/4Gmkqn3V7IMTkOmmiX7cbb",
+				"captions": ""
+			},
+			{
+				"id": "skz-gods-menu",
+				"name": "God's Menu",
+				"desc": "Stray Kids",
+				"background": "https://k-gen.fr/wp-content/uploads/2022/05/STRAY-KIDS-CIRCUS-11.jpg",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/skz-gods-menu.mp3",
+				"external": "https://open.spotify.com/track/4XPXrcpyNr30Km6aPiflJy",
+				"captions": "[00:00.050]결국 다시 찾게 될\n[00:03.050]열기가 식지 않는 메뉴 지금부터 싹 다\n[00:07.050]입맛에다 때려 박아\n\n[00:08.500]Du, du, du, du, du, du\n[00:12.200]이게 우리 탕 탕 탕탕\n[00:14.500]Du, du, du, du, du, du\n[00:18.250]이게 우리 탕 탕 탕탕\n\n[00:20.800]지금 바로 눈에 불을 켜\n[00:23.800]I just wanna taste it, make it hot\n[00:26.900]새로운 불판 위에 track을 달궈\n[00:29.900]메뉴 골라 call me up\n[00:31.500]원하는 걸로 다 serve\n[00:33.000]Du, du, du, du, du, du"
+			},
+			{
+				"id": "charlie-puth-cheating-on-you",
+				"name": "Cheating on You",
+				"desc": "Charlie Puth",
+				"background": "https://lh3.googleusercontent.com/1uG4RyrHQBid2gA0Nezc2I-elPnfeLDlTK4p9bQdnhs6hJHqq1PDszbFNKc0Dd-spBTHn1sVoIabIg=w1280-h720-p-l720-rj",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/charlie-puth-cheating-on-you.mp3",
+				"external": "https://open.spotify.com/track/0ClPIeT6MSgfSgQ9ZrJbAq",
+				"captions": ""
+			},
+			{
+				"id": "1d-night-changes",
+				"name": "Night Changes",
+				"desc": "One Direction",
+				"background": "https://lh3.googleusercontent.com/bjEw0aP3_lY6FcnBNlVm5xOPFUK1H5llctWG9eYjCaj48OSQ1soH77K4JUHr4tqxSBHWwYFo5bAxpCc=w1280-h720-p-l90-rj",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/1d-night-changes.mp3",
+				"external": "https://open.spotify.com/track/5O2P9iiztwhomNh8xkR9lJ",
+				"captions": "[00:08.800]We're only getting older, baby\n[00:12.700]And I′ve been thinking about it lately\n[00:16.800]Does it ever drive you crazy\n[00:20.300]Just how fast the night changes?\n[00:24.900]Everything that you′ve ever dreamed of\n[00:28.900]Disappearing when you wake up\n[00:32.700]But there's nothing to be afraid of\n[00:36.100]Even when the night changes\n[00:40.800]It will never change me and you"
+			},
+			{
+				"id": "fun-some-nights",
+				"name": "Some Nights",
+				"desc": "Fun.",
+				"background": "https://lh3.googleusercontent.com/qrRFw4mJDDTxA12J1k5WkkTtKxTbIFOfI3aPYGTdBUs4PeYf230UHW6wbFCVVVReGPZ39_CNuNjzfx2a=w1280-h720-p-l720-rj",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/fun-some-nights.mp3",
+				"external": "https://open.spotify.com/track/67WTwafOMgegV6ABnBQxcE",
+				"captions": "[00:00.500]Well, some nights, I wish that this all would end\n[00:05.100]'Cause I could use some friends for a change\n[00:09.800]And some nights, I'm scared you'll forget me again\n[00:14.000]Some nights, I always win (I always win)\n[00:18.200]But I still wake up, I still see your ghost\n[00:22.300]Oh Lord, I'm still not sure what I stand for, oh\n[00:27.200](Oh-ooh-woah-oh) What do I stand for?\n[00:29.300](Oh-ooh-woah-oh) What do I stand for?\n[00:31.900]Most nights, I don't know"
+			},
+			{
+				"id": "libera-eternal",
+				"name": "Eternal Light",
+				"desc": "Libera",
+				"background": "https://www.warnerclassics.com/sites/default/files/styles/artist_slider_1280x560_webp/public/H3253603.jpg.webp",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/libera-eternal.mp3",
+				"external": "https://open.spotify.com/track/5CZUAtT4yVZuzT1Tfb11L0",
+				"captions": "[00:00.950]Inside every moment\n[00:07.700]Deeper than the ocean\n[00:14.900]I just want to show you\n[00:20.300]All the beauty and the glory\n\n[00:27.400]In this clear eternal light\n[00:31.200]This miracle of light\n[00:35.300]You′ll never lose your way\n[00:40.200]This eternal light will find you\n[00:45.300]And guide you\n[00:48.600]Every day"
+			},
+			{
+				"id": "libera-angel",
+				"name": "Angel",
+				"desc": "Libera",
+				"background": "https://www.warnerclassics.com/sites/default/files/styles/artist_slider_1280x560_webp/public/H3253603.jpg.webp",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/libera-angel.mp3",
+				"external": "https://open.spotify.com/track/4Dhzd0IhCdR0mEJ0GE2xOm",
+				"captions": "[00:00.150]For you're always near to me, in my joy and sorrow\n[00:08.100]For you ever care for me, lifting my spirits to the sky\n\n[00:15.300]Where a million angels sing, in amazing harmony\n[00:24.500]And the words of love they bring\n[00:28.200]To the never ending story\n[00:32.900]A million voices sing\n[00:36.800]To the wonder of the light\n[00:40.800]So I hide beneath your wing\n[00:46.000]You are my guardian, angel of mine"
+			},
+			{
+				"id": "bsb-no-one-else-comes-close",
+				"name": "No One Else Comes Close",
+				"desc": "Backstreet Boys",
+				"background": "https://i.pinimg.com/originals/bc/13/c5/bc13c54c03e166009db549c041d7c2f2.jpg",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bsb-no-one-else-comes-close.mp3",
+				"external": "https://open.spotify.com/track/0z5WHJfqHxZxZnuDLrKWH2",
+				"captions": "[00:00:00.000]When we turn out the lights\n[00:00:04.400]But girl, you know that \n[00:00:06.000]I would never ever let another's touch\n[00:00:12.300]Come between the two of us\n[00:00:16.500]′Cause no one else will ever take your place\n\n[00:00:24.500]No one else comes close to you\n[00:00:28.800]No one makes me feel the way you do\n[00:00:33.000]Girl with just a touch, you can do so much\n[00:00:37.000]No one else comes close"
+			},
+			{
+				"id": "bsb-spanish-eyes",
+				"name": "Spanish Eyes",
+				"desc": "Backstreet Boys",
+				"background": "https://i.pinimg.com/originals/bc/13/c5/bc13c54c03e166009db549c041d7c2f2.jpg",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bsb-spanish-eyes.mp3",
+				"external": "https://open.spotify.com/track/6YcEWhjxFqALvaRYtZVAqS",
+				"captions": "[00:00.000]Thought I couldn't reach that far\n[00:03.700]I can′t believe how close that we are\n[00:11.200]When I look into your Spanish eyes\n[00:21.700]And the world is so beautiful tonight\n[00:26.900]It's a place I′ve never been\n[00:30.350]And it comes from deep within\n[00:33.800]And it's telling me\n[00:36.300]That I'm about to win first prize\n[00:40.800]Knowing all I have to do\n[00:44.500]Is reach out my hand to you\n[00:47.900]Anytime I want to look into your Spanish eyes\n[00:57.800]Oh, yeah"
+			},
+			{
+				"id": "bsb-missing-you",
+				"name": "Missing You",
+				"desc": "Backstreet Boys",
+				"background": "https://briannefleming.com/wp-content/uploads/2019/10/alaylm-header-1080x628.png",
+				"external": "https://music.youtube.com/watch?v=jExqSDRm_yI",
+				"captions": "[00:00.000]And when I call your phone\n[00:04.700]Seems like your never, ever home\n[00:09.700]And you don't return my calls (return my calls)\n[00:15.000]It tears me apart (it tears me apart)\n[00:17.700]It's breaking up my heart (it's breaking up my heart)\n[00:20.700]Oh baby, I'm missing you\n[00:26.200]We used to love so strong\n[00:29.100]Tell me, where did we go wrong?\n[00:31.400]Oh baby, I'm missing you\n[00:36.900]They say I'll learn to forget\n[00:39.800]But it sure ain't happened yet\n[00:43.050]Sure ain't happened yet",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bsb-missing-you.mp3"
+			},
+			{
+				"id": "bsb-time",
+				"name": "Time",
+				"desc": "Backstreet Boys",
+				"background": "https://world.agapedimas.repl.co/sources/ArtistArt/backstreet-boys-blue.webp",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bsb-time.mp3",
+				"external": "https://open.spotify.com/track/7zi3SpKZ7UFh0OBZzlAYy9",
+				"captions": "[00:01.100]Way back when nothing else mattered\n\n[00:05.400]Oh, oh, oh\n[00:06.900]I know we've changed but\n[00:09.900]Change can be so good\n[00:12.200]So let′s not forget why it's understood that\n\n[00:19.100]Time, look where we are\n[00:22.500]And what we've been through\n[00:25.000]Time, sharing our dreams\n[00:28.600](Sharin' little, little life with you)\n[00:31.200]Time, goes on and on everyday (everyday)\n[00:37.200]Time is what it is\n[00:39.000]Come what may (Come what may)\n\n[00:43.200]Time, goes on and on everyday\n[00:49.300]Time is what it is\n[00:57.200]Come what may\n[01:03.300]Come what may"
+			},
+			{
+				"id": "bsb-as-long-as-you-love-me",
+				"name": "As Long as You Love Me",
+				"desc": "Backstreet Boys",
+				"background": "https://briannefleming.com/wp-content/uploads/2019/10/alaylm-header-1080x628.png",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bsb-as-long-as-you-love-me.mp3",
+				"external": "https://open.spotify.com/track/3UpS7kBnkVQYG13pDDFTC4",
+				"captions": "[00:01.100]Don't care what is written in your history\n[00:06.000]As long as you're here with me\n[00:09.400]I don't care who you are\n[00:13.150]Where you're from\n[00:15.300]What you did\n[00:17.300]As long as you love me (I know)\n[00:20.300]Who you are (who you are)\n[00:23.000]Where you're from (where you're from)\n[00:24.700]Don't care what you did\n[00:27.400]As long as you love me\n[00:30.300]Yeah-eh-eh!\n[00:37.100]I don't care\n[00:38.500]As long as you love me"
+			},
+			{
+				"id": "bsb-yes-i-will",
+				"name": "Yes I Will",
+				"desc": "Backstreet Boys",
+				"background": "https://world.agapedimas.repl.co/sources/ArtistArt/backstreet-boys-blue.webp",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bsb-yes-i-will.mp3",
+				"external": "https://open.spotify.com/track/09Lm1APnjv02a2NteZFwqV",
+				"captions": "[00:00.000]Give you everything you need and someday\n[00:00.350]Start a family with you\n\n[00:04.600]I stand beside you in everything you do\n[00:10.200]\"Til death do us part, I promise to you\"\n\n[00:12.000]Yes I will\n[00:14.200]Take your hand and walk with you\n[00:16.300]Yes I will\n[00:18.500]Baby, I promise you\n[00:20.500]Yes I will\n[00:23.000]Give you everything you need\n[00:24.200]I promise you that\n[00:25.100]Everything's gonna be alright\n[00:26.500]It′s gonna be alright\n\n[00:28.800]I, I, I, I\n[00:32.750]I will"
+			},
+			{
+				"id": "bsb-ill-be-there-for-you",
+				"name": "I'll Be There for You",
+				"desc": "Backstreet Boys",
+				"background": "https://i.pinimg.com/originals/bc/13/c5/bc13c54c03e166009db549c041d7c2f2.jpg",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bsb-ill-be-there-for-you.mp3",
+				"external": "https://music.youtube.com/watch?v=uOWZZMqWmBA",
+				"captions": "[00:00.300]I'll hold you (hold you)\n[00:03.500]Love you (love you)\n[00:07.000]I'll never let your love go (let you go, let you go)\n[00:12.500]For always (for always)\n[00:15.800]I'll stay (I'll stay)\n[00:18.500]Just look in my eyes and you'll know\n[00:24.200]Baby, I'll be there for you\n[00:29.400]Wherever you go\n[00:32.400]Whatever you do\n[00:37.200]Girl, I've got forever inside\n[00:42.900]For all of my life\n[00:46.700]I'll be there for you"
+			},
+			{
+				"id": "bsb-ill-never-find-someone-like-you",
+				"name": "I'll Never Find Someone Like You",
+				"desc": "Backstreet Boys",
+				"background": "https://world.agapedimas.repl.co/sources/ArtistArt/backstreet-boys.webp",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bsb-ill-never-find-someone-like-you.mp3",
+				"external": "https://music.youtube.com/watch?v=DZ5SfKGYPl8",
+				"captions": "[00:00.000]I need you so bad\n[00:01.800]Don't leave me now, you're the best that I've had\n\n[00:05.300]I'll never\n[00:07.200]I'll never find someone like you (no, I'll never)\n[00:10.900]I promise it's true, no, I'll never\n[00:14.800]I'll never find someone like you (ooh, baby)\n[00:21.200]'Cause I love the way that you are\n[00:24.400]And girl, no, I won't, no, I won't let you go\n[00:28.600]No one could ever do, love you like I love you"
+			},
+			{
+				"id": "bsb-give-me-your-heart",
+				"name": "Give Me Your Heart",
+				"desc": "Backstreet Boys",
+				"background": "https://world.agapedimas.repl.co/sources/ArtistArt/backstreet-boys.webp",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bsb-give-me-your-heart.mp3",
+				"external": "https://music.youtube.com/watch?v=8b9JZGlYkUw",
+				"captions": "[00:05.000]Can I have a talk with you?\n[00:07.800]Let me walk you home from school\n[00:12.000]I got something that's on my mind\n[00:15.000]And I don't know just what to do\n[00:19.000]Girl, I got this love for you\n[00:21.500]You can have it your way everyday\n[00:25.300]I will treat you right, I will never lie\n[00:29.200]And tell me your feeling the way that I do\n\n[00:32.900]Girl give me your love, I'll give you my heart\n[00:36.500]Let's put them together see what we can start\n[00:40.500]I wanna be with you\n[00:44.000]You wanna be with me\n[00:46.000]I wanna be with you"
+			},
+			{
+				"id": "bsb-you-wrote-the-book-on-love",
+				"name": "You Wrote the Book on Love",
+				"desc": "Backstreet Boys",
+				"background": "https://i.pinimg.com/originals/bc/13/c5/bc13c54c03e166009db549c041d7c2f2.jpg",
+				"external": "https://music.youtube.com/watch?v=ay6xfCxEyXE",
+				"audio": "https://github.com/agapedimas/World/raw/main/personal/music/bsb-you-wrote-the-book-on-love.mp3",
+				"captions": "[00:00.400]What pleases you and what pleases me\n[00:04.900]Girl, when you touched me\n[00:07.300]I began to understand\n[00:11.200]Oh, oh, oh, oh\n[00:15.700]I hear what your heart is saying to me (saying to me)\n[00:20.900]I see the picture so clearly\n[00:25.300]I'm thirsty for the knowledge true love brings\n[00:32.400]When you're near me\n[00:36.200]Yeah, yeah\n[00:38.500]You wrote the book on love (you wrote the book on love)\n[00:43.800]I wanna read every word\n[00:48.800]So I know everything about you"
+			}
+		],
+		"Scene": [
+			{
+				"id": "little-einsteins",
+				"name": "Little Einsteins",
+				"desc": "Versi remixnya bikin nostalgia coy...",
+				"video": "https://github.com/agapedimas/World/raw/main/personal/scene/little-einsteins.mp4"
+			},
+			{
+				"id": "temu-kolese",
+				"name": "Temu Kolese",
+				"desc": "Remaja Sehat Kontingen Tekol",
+				"video": "https://github.com/agapedimas/World/raw/main/personal/scene/temu-kolese.mp4"
+			},
+			{
+				"id": "high-school-anniversary",
+				"name": "HUT Sekolah",
+				"desc": "Emang Tigrius tuh ngangenin 🤩",
+				"video": "https://github.com/agapedimas/World/raw/main/personal/scene/high-school-anniversary.mp4"
+			},
+			{
+				"id": "1yr-recap",
+				"name": "1yr recap",
+				"desc": "Tahun pasca-pandemi yang seru. Banyak yang dikangenin jujur.",
+				"video": "https://github.com/agapedimas/World/raw/main/personal/scene/1yr%20recap.mp4"
+			},
+			{
+				"id": "oration-day",
+				"name": "Hari Orasi",
+				"desc": "Reaction dari audience itu yang paling ditunggu, riil 🥺",
+				"video": "https://github.com/agapedimas/World/raw/main/personal/scene/presidium-campaign.mp4"
+			},
+			{
+				"id": "windows-media-center",
+				"name": "Windows Media Center",
+				"desc": "Satisfying aja gitu dengerin musik + visual intronya yang sederhana.",
+				"video": "https://github.com/agapedimas/World/raw/main/personal/scene/windows-media-center.webm"
+			},
+			{
+				"id": "sony-one",
+				"name": "Sony ONE Rebranding",
+				"desc": "Gatau kayaknya earworm gegara pada nonton channel tv ini terus.",
+				"video": "https://github.com/agapedimas/World/raw/main/personal/scene/sony-one.webm"
+			}
+		],
+		"Film": [
+			{
+				"id": "family-guy",
+				"name": "Family Guy",
+				"desc": "Kalo ga lucu, berarti belum ngerti jokesnya.",
+				"url": "https://www.hotstar.com/tv/family-guy/1260024995/"
+			},
+			{
+				"id": "brooklyn-nine-nine",
+				"name": "Brooklyn Nine Nine",
+				"desc": "Komedi + Detektif + Action = 💯",
+				"url": "https://www.netflix.com/title/70281562"
+			},
+			{
+				"id": "stranger-things",
+				"name": "Stranger Things",
+				"desc": "Kumpulan bocil-bocil aneh.",
+				"url": "https://www.netflix.com/title/80057281"
+			},
+			{
+				"id": "one-of-us-is-lying",
+				"name": "One of Us is Lying",
+				"desc": "Plot twistnya cukup susah ditebak.",
+				"url": "https://www.netflix.com/title/81459931"
+			}
+		]
+	},
+	"Community": {
+		"Product": [
+			{
+				"id": "surface",
+				"name": "Surface Product Line",
+				"desc": "Produk inovasinya ala Microsoft yang sebenernya cukup menarik.",
+				"url": "https://www.microsoft.com/en-us/surface"
+			},
+			{
+				"id": "cortana",
+				"name": "Cortana",
+				"desc": "Asisten dengan model suara yang 90% mirip kayak manusia asli.",
+				"url": "https://www.microsoft.com/en-us/cortana"
+			},
+			{
+				"id": "windows",
+				"name": "Windows",
+				"desc": "Meskipun ga perfect, tapi banyak sejarah yang menarik di baliknya.",
+				"url": "https://www.microsoft.com/en-us/windows"
+			},
+			{
+				"id": "chatgpt",
+				"name": "ChatGPT",
+				"desc": "Pinter dan ga sedongo Cortana karena ini bisa jawab apapun.",
+				"url": "https://chat.openai.com/chat"
+			}
+		]
+	}
+}

@@ -1,0 +1,355 @@
+<ad-title>Windows Parody - Games</ad-title>
+
+<link href="windows-parody/style.css" rel="stylesheet" type="text/css" />
+<div id='desktop' class='hidden'>
+	<div class='icons hidden'>
+		<div>
+			<div class='app_icon' tabindex='-1' ondblclick='openApp("ms-explorer")'>
+				<img src='/games/windows-parody/assets/image/computer.png'/>
+				<div>Your Computer</div>
+			</div>
+			<div class='app_icon' tabindex='-1' ondblclick='openApp("ms-explorer"); explorer3()'>
+				<img src='/games/windows-parody/assets/image/folder.png'/>
+				<div>Your Documents</div>
+			</div>
+			<div class='app_icon' tabindex='-1' ondblclick='eggOpen(); openApp("ms-egg")'>
+				<img src='/games/windows-parody/assets/image/egg.png'/>
+				<div>Microsoft Egg</div>
+			</div>
+			<div class='app_icon' tabindex='-1' ondblclick='openAppDialog("ms-lookout")'>
+				<img src='/games/windows-parody/assets/image/lookout.png'/>
+				<div>LookOut Express</div>
+			</div>
+			<div class='app_icon' tabindex='-1' ondblclick='openAppDialog("ms-defender")'>
+				<img src='/games/windows-parody/assets/image/Defender.png'/>
+				<div>Windows Defender</div>
+			</div>
+		</div>
+		<div>
+			<div class='app_icon' tabindex='-1' ondblclick='openApp("ms-minesweeper")'>
+				<img src='/games/windows-parody/assets/image/minesweeper.png'/>
+				<div>Minesweeper</div>
+			</div>
+			<div class='app_icon' tabindex='-1' ondblclick='openApp("ms-mediaplayer")'>
+				<img src='/games/windows-parody/assets/image/mediaplayer.png'/>
+				<div>Windows Medium Player</div>
+			</div>
+			<div class='app_icon' tabindex='-1' ondblclick='openApp("ms-messenger")'>
+				<img src='/games/windows-parody/assets/image/msn.png'/>
+				<div>MSN Messenger</div>
+			</div>
+			<div class='app_icon' tabindex='-1' ondblclick='openAppDialog("ms-update")'>
+				<img src='/games/windows-parody/assets/image/update.png'/>
+				<div>Windows Update</div>
+			</div>
+		</div>
+	</div>
+	<div class='taskbar hidden'>
+		<div class='start_button' tooltip='Click here to begin'><img src='/games/windows-parody/assets/image/Start.png'/></div>
+		<div class='applications'></div>
+		<div class='notification hidden'>
+			<img id='network' tooltip='Local Area Connection<br/>Signal: Strength' src='/games/windows-parody/assets/image/network.png' class='hidden'/>
+			<img id='quicktime' src='/games/windows-parody/assets/image/quicktime.png' tooltip='Quicktime' class='hidden'/>
+			<img id='msn'  tooltip='Windows Messenger' src='/games/windows-parody/assets/image/msn.png' class='hidden'/>
+			<img id='volume' tooltip='Volume' src='/games/windows-parody/assets/image/volume.png' class='hidden'/>
+			<span class='time hidden'></span>
+		</div>
+	</div>
+	<div class='start hidden'>
+		<div class='brand'>Windows XP Dead Edition</div>
+		<div class='menulist'>
+			<div id='brake' tooltip="I don't know why I create this button"><img src='/games/windows-parody/assets/image/Break.png'/><span>Brake</span></div>
+			<div bercabang id='program'><img src='/games/windows-parody/assets/image/programs.png'/><span>Programs</span>
+				<section style='top:-62px'>
+					<article onclick='openAppDialog("ms-lookout")'>
+						<img src='/games/windows-parody/assets/image/lookout.png'/><span>Lookout Express</span>
+					</article>
+					<article onclick='eggOpen(); openApp("ms-egg")'>
+						<img src='/games/windows-parody/assets/image/egg.png'/><span>Microsoft Egg</span>
+					</article>
+					<article onclick='openApp("ms-minesweeper")'>
+						<img src='/games/windows-parody/assets/image/minesweeper.png'/><span>Minesweeper</span>
+					</article>
+					<article onclick='openApp("ms-messenger")'>
+						<img src='/games/windows-parody/assets/image/msn.png'/><span>MSN Messenger</span>
+					</article>
+					<article onclick='openApp("ms-explorer")'>
+						<img src='/games/windows-parody/assets/image/explorer.png'/><span>Windows Explorer</span>
+					</article>
+					<article onclick='openAppDialog("ms-defender")'>
+						<img src='/games/windows-parody/assets/image/Defender.png'/><span>Windows Defender</span>
+					</article>
+					<article onclick='openApp("ms-mediaplayer")'>
+						<img src='/games/windows-parody/assets/image/mediaplayer.png'/><span>Windows Medium Player</span>
+					</article>
+					<article onclick='openAppDialog("ms-update")'>
+						<img src='/games/windows-parody/assets/image/update.png'/><span>Windows Update</span>
+					</article>
+				</section>
+			</div>
+			<div bercabang id='document'><img src='/games/windows-parody/assets/image/documents.png'/><span>Documents</span>
+				<section>
+					<article onclick='openApp("ms-notepad");'>
+						<img src='/games/windows-parody/assets/image/notepad.png'/><span>Credit.txt</span>
+					</article>
+					<article onclick='openApp("ms-explorer"); explorer3()'>
+						<img src='/games/windows-parody/assets/image/folder.png'/><span>Your Documents</span>
+					</article>
+				</section>
+			</div>
+			<div bercabang id='setting'><img src='/games/windows-parody/assets/image/control.png'/><span>Settings</span>
+				<section>
+					<article onclick='openApp("ms-explorer"); explorer1()'>
+						<img src='/games/windows-parody/assets/image/control.png'/><span>Control Panel</span>
+					</article>
+				</section>
+			</div>
+			<div id='help' tooltip="To prevent your PC crashing by yourself, open this"><img src='/games/windows-parody/assets/image/help.png'/><span>Help and Support</span></div>
+			<div id='run' tooltip="Run"><img src='/games/windows-parody/assets/image/Run.png'/><span>Run</span></div>
+			<div id='turnoff' tooltip="I think you don't need this button"><img src='/games/windows-parody/assets/image/Power Off.png'/><span>Turn Off...</span></div>
+		</div>
+	</div>
+	<div class='turnoff_dialog'>
+		<dialog>
+			<header><br/></header>
+			<article>
+				<div class='info'>Attempting to shut down...</div>
+				<div class='buttons'><button>OK</button></div>
+			</article>
+		</dialog>
+	</div>
+	
+	<apps>
+		<section class='app' id='ms-explorer'>
+			<header><span appName>Your Computer</span></header>
+			<article>
+				<div name='section1' class='opened' style='height:100%'>
+					<div style='display:flex;height:100%'>
+						<div style='width:350px;background: linear-gradient(#80a2d7, #7176bd);padding:15px'>
+							<div style="background: #d6e0f8; border-radius: 5px; color: #5b7db2;font-size: 13px;overflow:hidden">
+								<div style='font-size: 13px;background:linear-gradient(45deg, white, transparent);padding:10px'><b>System Tasks</b></div>
+								<div id='ex_system' style='cursor:var(--cursor-pointer);margin: 10px 10px 5px;position:relative;padding: 5px 0 5px 23px;'><img style='position:absolute;left:0;width: 20px;height: 20px;top: 3px;object-fit: contain;object-position: left;' src='/games/windows-parody/assets/image/system.png'/>View System Information</div>
+								<div id='ex_control' style='cursor:var(--cursor-pointer);margin: 5px 10px;position:relative;padding: 5px 0 5px 23px;'><img style='position:absolute;left:0;width: 20px;height: 20px;top: 3px;object-fit: contain;object-position: left;' src='/games/windows-parody/assets/image/control.png'/>Change a Setting</div>
+								<div id='ex_clear' style='cursor:var(--cursor-pointer);margin: 5px 10px 10px;position:relative;padding: 5px 0 5px 23px;'><img style='position:absolute;left:0;width: 20px;height: 20px;top: 3px;object-fit: contain;object-position: left;' src='/games/windows-parody/assets/image/clear.png'/>Clear Screen</div>
+							</div><br/>
+							<div style="background: #d6e0f8; border-radius: 5px; color: #5b7db2;font-size: 13px;overflow:hidden">
+								<div style='font-size: 13px;background:linear-gradient(45deg, white, transparent);padding:10px'><b>Spend Money</b></div>
+								<div style='cursor:var(--cursor-pointer);margin: 10px 10px 5px;position:relative;padding: 5px 0 5px 23px;' kmn='https://www.youtube.com/premium' ntp><img style='position:absolute;left:0;width: 15px;height: 20px;top: 3px;object-fit: contain;object-position: left;' src='/games/windows-parody/assets/image/YouTube.png'/>Buy YouTube Premium</div>
+								<div style='cursor:var(--cursor-pointer);margin: 5px 10px 10px;position:relative;padding: 5px 0 5px 23px;' kmn='https://www.microsoft.com/en-us/store/b/windows' ntp><img style='position:absolute;left:0;width: 15px;height: 20px;top: 3px;object-fit: contain;object-position: left;' src='/games/windows-parody/assets/image/key.png'/>Genuine your Windows License</div>
+							</div>
+						</div>
+						<div style='width:100%;padding:20px'>
+							<div>Files Stored On This Computer</div>
+							<div class='drive_icon' ondblclick='explorer3()' tabindex='-1'>
+								<img src='/games/windows-parody/assets/image/folder.png'/>
+								<div>Your Documents</div>
+							</div>
+							<div>Hard Disk Drives</div>
+							<div class='drive_icon' ondblclick='explorer4()' tabindex='-1'>
+								<img src='/games/windows-parody/assets/image/drive1.png'/>
+								<div>Local Disk (C:)</div>
+							</div>
+							<div>Devices With Removable Storage</div>
+							<div class='drive_icon' ondblclick='explorer5()' tabindex='-1'>
+								<img src='/games/windows-parody/assets/image/drive2.png'/>
+								<div>Floppy Disk (A:)</div>
+							</div>
+							<div>Other</div>
+							<div class='drive_icon' ondblclick='explorer1()' tabindex='-1'>
+								<img src='/games/windows-parody/assets/image/control.png'/>
+								<div>Control Panel</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div name='section2'>
+					<div style='background: #efefef; padding: 0 0 20px 15px; border-bottom: 2px solid black;'>
+						<span onclick='explorerClose()'><img class='light' style="display:inline-block;width: 25px;border-radius:6px;transform: rotate(180deg) translateY(-6px);margin: 10px 10px 0px 0;" src='/games/windows-parody/assets/image/go.png'/>Back</span>
+					</div>
+					<div style='padding: 5px 20px'>
+						<div class='app_icon' tabindex='-1' ondblclick='explorer2("display")' style='display:inline-block; margin-right: 20px'>
+							<img style="width: 90px; height: 90px" src='/games/windows-parody/assets/image/display.png'/>
+							<div style='text-shadow:none;font-size: 15px;max-width: 90px;white-space: normal;overflow: unset;' >Display</div>
+						</div>
+						<div class='app_icon' tabindex='-1' ondblclick='explorer2("fonts")' style='display:inline-block; margin-right: 20px'>
+							<img style="width: 90px; height: 90px" src='/games/windows-parody/assets/image/fonts.png'/>
+							<div style='text-shadow:none;font-size: 15px;max-width: 90px;white-space: normal;overflow: unset;'>Fonts</div>
+						</div>
+						<div class='app_icon' tabindex='-1' ondblclick='explorer2("keyboard")' style='display:inline-block; margin-right: 20px'>
+							<img style="width: 90px; height: 90px" src='/games/windows-parody/assets/image/keyboard.png'/>
+							<div style='text-shadow:none;font-size: 15px;max-width: 90px;white-space: normal;overflow: unset;'>Keyboard</div>
+						</div>
+						<div class='app_icon' tabindex='-1' ondblclick='explorer2("mouse", event)' style='display:inline-block; margin-right: 20px'>
+							<img style="width: 90px; height: 90px" src='/games/windows-parody/assets/image/mouse.png'/>
+							<div style='text-shadow:none;font-size: 15px;max-width: 90px;white-space: normal;overflow: unset;'>Mouse</div>
+						</div>
+						<div class='app_icon' tabindex='-1' ondblclick='explorer2("speech")' style='display:inline-block; margin-right: 20px'>
+							<img style="width: 90px; height: 90px" src='/games/windows-parody/assets/image/speech.png'/>
+							<div style='text-shadow:none;font-size: 15px;max-width: 90px;white-space: normal;overflow: unset;'>Speech</div>
+						</div>
+					</div>
+				</div>
+				<div name='section3'>
+					<div style='background: #efefef; padding: 0 0 20px 15px; border-bottom: 2px solid black;'>
+						<span onclick='explorerClose()'><img class='light' style="display:inline-block;width: 25px;border-radius:6px;transform: rotate(180deg) translateY(-6px);margin: 10px 10px 0px 0;" src='/games/windows-parody/assets/image/go.png'/>Back</span>
+					</div>
+					<div style='padding: 5px 20px'>
+						<div class='app_icon' tabindex='-1' ondblclick='explorer6("music")' style='vertical-align:top; display: inline-block; margin-right: 20px'>
+							<img style="width: 90px; height: 90px"  src='/games/windows-parody/assets/image/music.png'/>
+							<div style='text-shadow:none;font-size: 15px;max-width: 90px;white-space: normal;overflow: unset;' >Your Music</div>
+						</div>
+						<div class='app_icon' tabindex='-1' ondblclick='explorer6("pictures")' style='vertical-align:top; display: inline-block; margin-right: 20px'>
+							<img style="width: 90px; height: 90px"  src='/games/windows-parody/assets/image/picture.png'/>
+							<div style='text-shadow:none;font-size: 15px;max-width: 90px;white-space: normal;overflow: unset;'>Your Pictures</div>
+						</div>
+						<div class='app_icon' tabindex='-1' ondblclick='explorer6("received")' style='vertical-align:top; display: inline-block; margin-right: 20px'>
+							<img style="width: 90px; height: 90px" src='/games/windows-parody/assets/image/received.png'/>
+							<div style='text-shadow:none;font-size: 15px;max-width: 90px;white-space: normal;overflow: unset;'>Your Received Files</div>
+						</div>
+						<div class='app_icon' tabindex='-1' ondblclick='explorer6("video")' style='vertical-align:top; display: inline-block; margin-right: 20px'>
+							<img style="width: 90px; height: 90px"  src='/games/windows-parody/assets/image/videos.png'/>
+							<div style='text-shadow:none;font-size: 15px;max-width: 90px;white-space: normal;overflow: unset;'>Your Videos</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<dialog name='dialog1'>
+				<header><span appName></span></header>
+				<article>
+					<div class='info'></div>
+					<div class='buttons'><button>OK</button></div>
+				</article>
+			</dialog>
+			<dialog name='dialog2'>
+				<header>Your Pictures</header>
+				<article>
+					<div class='info'><img src='/games/windows-parody/assets/image/alert.png'/><span>Windows XP has determined that the photos from your gallery are boring, so they have been deleted. If you would like to register a complaint with Microsoft, click OK.</span></div>
+					<div class='buttons'><button tabindex='-1'>OK</button><button>Cancel</button></div>
+				</article>
+			</dialog>
+		</section>
+		<section class='app' id='ms-egg'>
+			<header>Microsoft Egg</header>
+			<article style='font-size:17px'>
+				<div name='section1'>
+					<div style="padding: 15px 20px 0;font-size:25px">
+						<img src='/games/windows-parody/assets/image/file.png' style="width: 65px; margin-right: 10px"/>
+						<span style='vertical-align:top'>The page cannot be displayed</span>
+					</div>
+					<div style="padding: 15px 20px 0;">The page you are looking for is currently unavailable.<br/>And it's not like I'm saying you should hold your breath either.<br/>It's easier to blame you, so we will. It's your fault this won't work.</div>
+					<div>
+						<div style="padding: 15px 0 0;border-top: 2px double black;margin: 20px 20px;">Please try the following:</div>
+						<ol style='padding: 0 20px 0 40px'>
+							<li style="margin: 10px 0">Make sure you haven't spilled coffee into your keyboard. Sticky keys will prevent you from typing the correct website address.</li>
+							<li style="margin: 10px 0">Check your IP address. If it contains letters, or any other characters that aren't number, you are too stupid to own a computer.</li>
+							<li style="margin: 10px 0">Verifiy the whatsit is properly secured into the whichamacallit port on your pc.</li>
+							<li style="margin: 10px 0">Uninstall all non-Microsoft products and keep using Bing Search instead of Google Search. We're working hard to promote our search engine.</li>
+						</ol>
+					</div>
+				</div>
+				<div id='eggStatus' style="position: absolute; bottom: 5px; width: calc(100% - 20px); padding: 5px; background: #ccc; border-top: 2px solid black">
+					Opening page: https://www.microsoft.com
+					<div style="position:absolute;top: 5px;right: 5px;background: white;width: 150px;height: 20px;outline: 2px solid black;overflow: hidden;">
+						<div id='eggStatusBar' style="background:green;width: 10%;height:100%;"></div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class='app' id='ms-help'>
+			<header>Help and Support Center</header>
+			<article style='display: flex; flex-direction: column;'>
+				<div class='glow-bottom' style='background:#003399; color: white;padding:25px 20px;position:relative'>
+					Search <input style='margin: 0 5px 0 10px; border-radius: 5px; border: 2px solid white' placeholder='Type here'/><img class='light' src='/games/windows-parody/assets/image/go.png' width='30' style='position:absolute'/>
+					<span style='font-size:23px;text-align:right;position:absolute;top:13px;right:8px;'>Help and Support Center<div style='font-size:14px'>Windows XP Dead Edition</div></span>
+				</div>
+				<div style='background:#6374d5;color:white;padding:20px;height: 100%;'>
+					<div name='section1' class='opened'>
+						<div style='font-size: 25px;color: #bec8ff;margin: 0 0 10px;'>What are you looking for?</div>We couldn't show our help lists, just search what are you looking for. If you don't know what do you have to do, just close this app.
+					</div>
+					<div name='section2'>
+						Please wait while Windows searches the Windows Help Database
+					</div>
+					<div name='section3'>
+						You searched for <b></b>, but Windows XP could not find any matches.<br/>However, Windows XP was able to formulate these 3 possible matches based on a made-up algorithm.<br/><br/>
+						<button>View possible matches</button>
+					</div>
+					<div name='section4' style='margin-top: 20px; border-top: 1px solid #8395fa; padding-top: 20px;'>
+						<div style='font-size: 25px;color: #bec8ff;margin: 0 0 20px;'>Possible matches:</div>
+						<div style='margin:15px 0'>How to "Undo" mistake you made<button style='float:right' onclick='window.open("https://abortionfacts.com")'>View</button></div>
+						<div style='margin:15px 0'>How if we use 100% of brain?<button style='float:right' onclick='window.open("https://bible.com")'>View</button></div>
+						<div style='margin:15px 0'>Can we buy iPhone without money?<button style='float:right' onclick='window.open("https://www.d-b.net/")'>View</button></div>
+					</div>
+				</div>
+			</article>
+			<dialog>
+				<header>Hey!</header>
+				<article>
+					<div class='info'>
+						<img src='/games/windows-parody/assets/image/alert.png'/>
+						<span>I said please wait! Can you be more patient?</span>
+					</div>
+					<div class='buttons'><button>OK</button></div>
+				</article>
+			</dialog>
+		</section>
+		<section class='app' id='ms-notepad'>
+			<header>Credit.txt - Notepad</header>
+			<article style='padding:15px; line-height:1.7' contenteditable='true'>
+				All graphics and programming by Agape Dimas.<br/>
+				Remade of Windows XP version 19.914 by Brett McLean.<br/><br/>
+				Thanks to you!
+			</article>
+		</section>
+		<section class='app' id='ms-messenger'>
+			<header>MSN Messenger</header>
+			<article>
+			</article>
+		</section>
+		<section class='app' id='ms-mediaplayer'>
+			<header>Windows Medium Player</header>
+			<article>
+			</article>
+		</section>
+		<section class='app' id='ms-minesweeper'>
+			<header>Minesweeper</header>
+			<article>
+			</article>
+		</section>
+	</apps>
+	<img id='mouse' class='hidden' style='z-index:9999;pointer-events:none;' src='/games/windows-parody/assets/image/tikus.png' width='100'/>
+	<dialog id='desktopDialog'>
+		<header><span appName></span></header>
+		<article>
+			<div class='info'></div>
+			<div class='buttons'><button>OK</button></div>
+		</article>
+	</dialog>
+</div>
+<div class='tooltip'></div>
+<div id='bsod' class='hidden'>
+	<div style='width:800px'>
+		A problem has been detected and Windows has been shut down to realize it that you are too stupid. You are not listening what Speech said. It's easier to blame you, so we will. It's your fault why this would happen.<br/>
+		<br/>
+		USER_TOO_STUPID<br/>
+		<br/>
+		If this is the first time you've seen this error screen, just press space key. If you're panic when seeing this page, you're too beginner to own a computer.<br/>
+		<br/>
+		Technical Information:<br/>
+		<br/>
+		PRESS_SPACE_KEY_TO_CONTINUE (00000000000, 000000000, 000000, 000000)
+	</div>
+</div>
+<div id='wiperblade' class='hidden'>
+	<img src='/games/windows-parody/assets/image/wiperblade.png'/>
+	<img src='/games/windows-parody/assets/image/wiperblade.png'/>
+</div>
+<div id='oops'>
+	<div style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width: 600px;max-width: calc(100% - 50px);">
+		<div style="font-size: 30px;font-weight: bold;background: white;color: #0100ab;display: inline-block;margin-bottom: 15px;">Oh, no!</div>
+		<div>The window is too small. Windows only supports 800px or above width and 600px or above height. Enlarge your window or enter fullscreen. If it doesn't work, it's time to buy a new device.</div><br/>
+		<div id='windowWidth'>Your window width: <b></b></div>
+		<div id='windowHeight'>Your window height: <b></b></div>
+	</div> 
+</div>
+<script src="windows-parody/apps.js"></script>
+<script src="windows-parody/dwm.js"></script>

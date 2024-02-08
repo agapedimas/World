@@ -1,1 +1,0 @@
-{"version":2,"languages":{"nodejs-npm":{"specfileHash":"d0f4182bcbcf8b466f15701e5126e62e","lockfileHash":"6a2309d98be2acfd17e06ea9ec3605fe","guessedImports":["express-session","express","webp-converter","@replit/database","express-body-parser-error-handler","express-fileupload","body-parser"],"guessedImportsHash":"0630c1676874649864f9f7e2a8b05769"}}}
